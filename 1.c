@@ -6,48 +6,18 @@
 //encontrar o primeiro número que seja múltiplo de 10 (este último número deve ser testado, mas só será impresso se não for múltiplo de 3)."
 #include<stdio.h>
 
-
-
-void main()
-
-{
-
+void main(){
 	int num;
-
 	printf("Digite um numero:");
-
 	scanf("%d", &num);
-
-	
-
-	for(; ;num++)
-
-	{
-
-		if (num%3!=0)
-
-		{
-
+	for(; ;num++){
+		if (num%3!=0){
 			printf("%d ", num);
-
 		}
-
-		if(num%10==0)
-
-		{
-
-			break;			
-
+		if(num%10==0){
+			break;
 		}
-
 	}
-
-	
-
-	
-
-	
-
 }
 
 
